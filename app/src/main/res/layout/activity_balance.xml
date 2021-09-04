@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Balance">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="balance available:"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - $1.500,75"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/black"
+        ></TextView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
